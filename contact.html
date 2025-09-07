@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>portfolio</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">portfolio</a>
+
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="Services.html">Services</a>
+        <!-- <a href="#">portfolio</a> -->
+        <a href="contact.html">Contacts</a>
+      </nav>
+    </header>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+           <input type="hidden" name="access_key" value="f05f784d-af65-4fc6-8ab2-6c169dcf2c2e">
+            <div class="input-box">
+                <input type="text" name="full_name" placeholder="Full Name">
+                <input type="email" name="email"  placeholder="Email Address" required>
+            </div>
+               
+            <div class="input-box">
+                <input type="number" name="mobile_number" placeholder="Mobile Number">
+                <input type="text" name="subject" placeholder="Subject">
+            </div>
+
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+     
+      </div>
+    </section>
+
+    <!-- footer section -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2025 by Janith | All Right Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="index.html"><i class='bx bx-up-arrow-alt'></i></a>
+      </div>
+    </footer>
+      <script src="script.js"></script>
+  </body>
+</html>
